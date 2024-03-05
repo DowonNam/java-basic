@@ -49,21 +49,63 @@ public class DoubleLoopExam {
         //    ******
         //    *******
 
-        int heighjt = 3;
+        int height = 3;
 
-//        for (int i = 0; i <= heighjt; i++) {
-//            for (int j = 0; j < i; j++) {
-//                System.out.println("*");
-//                }
-//            System.out.println();
+     //println 으로 출력하지 않고, print로 출력해야 함
+//        for(int i = 1; i <= height; i++) {
+//            for(int j = 1; j <= i; j++) {
+//                    System.out.print("*");
+//                } System.out.println();
 //        }
 
-        for (int i = 0; i <= heighjt; i++) {
-            for (int j = heighjt; j > 0; j--) {
-                System.out.println(j);
-            }
-            System.out.println();
-        }
+//        높이 : [3]
+//
+//      *
+//     **
+//    ***
+//
+//    */
+//
+//    /*
+//
+//    높이 : [5]
+//
+//        *
+//       **
+//      ***
+//     ****
+//    *****
+//
+//    */
+//
+//    /*
+//
+//    높이 : [7]
+//
+//          *
+//         **
+//        ***
+//       ****
+//      *****
+//     ******
+//    *******
+
+//        for(int i = height; i > 0; i--) {
+//           for(int j = 1; j <= height; j++) {
+//               if(j < i){
+//                   System.out.print(" ");}
+//               else System.out.print("*");
+//               } System.out.println();
+//       }
+
+        for(int i = 1; i >= height; i++) {
+         for(int j = 1; j <= (height*2-1); j++ ){
+                System.out.print("*");
+               } System.out.println();
+       }
+
 
     }
 }
+
+

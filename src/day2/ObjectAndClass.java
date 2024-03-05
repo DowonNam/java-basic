@@ -108,4 +108,6 @@ class Car{
     String model;
     int year;
     int price;
+    String color;
+    int speed;
 }

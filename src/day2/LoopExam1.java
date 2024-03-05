@@ -28,24 +28,13 @@ public class LoopExam1 {
         //(90분이되면 경기가 바로 종료되므로 골을 넣을 수 없다. 해당 경기의 심판은 추가시간을 주지 않는 것으로 유명하다.)
         //현재 경기타임 time과 A팀의 득점 score가 주어질 때, 손흥민을 투입하면 A팀의 최종 득점은 몇 점인지 출력하시오.
         // 출력 : 4
-
-//        int time = 74;
-//        int score = 0;
-//        if
-//        for(int i = time; i <=90 ; i++){
-//            if(time/5);{
-//                System.out.println(time);
-//            }
-//        }
-
+//
 //        int time = 74;
 //        int score = 0;
 //
-//        for(int i = time; i < 90; i+=5) {
-//            score = time++;
-//            System.out.println(score);
-//        }
-
+//        for(int i = time; i <= 90; i+=5){
+//            score++;}
+//        System.out.println(score);
 
         // 문제5.
         // a b 두 수가 주어지면 a와 b사이의 수를 오름차순 출력해주세요.
@@ -53,6 +42,7 @@ public class LoopExam1 {
 
         // ex )
         // 오름차순 :  1, 2, 3, 4, 5
+
         // 내림차순 :  5, 4, 3, 2, 1
 
 //        int a = 12;
