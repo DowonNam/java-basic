@@ -98,13 +98,40 @@ public class DoubleLoopExam {
 //               } System.out.println();
 //       }
 
-        for(int i = 1; i >= height; i++) {
-         for(int j = 1; j <= (height*2-1); j++ ){
+//print_tri(3);
+        // 출력
+        //*
+        //**
+        // *
+
+        //print_tri(5);
+        // 출력
+        //*
+        //**
+        //***
+        //**
+        //*
+
+        //print_tri(6);
+        // 출력
+        //*
+        //**
+        //***
+        //***
+        //**
+        //*
+
+        for(int i = 1; i <= height; i++) {
+            for(int j = 0; j < i ; j++ ){
                 System.out.print("*");
-               } System.out.println();
-       }
-
-
+            } System.out.println();
+        }
+        for(int i = 0; i < height; i++) {
+            for (int j = (height - 1); j > i; j--) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
 
