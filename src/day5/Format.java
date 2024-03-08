@@ -10,6 +10,7 @@ public class Format {
     // 방법 2.
         // %d : 정수
         // %s : 문자
+        // %f : 실수
         System.out.printf("안녕하세요 %d살입니다.",20);
     }
 }

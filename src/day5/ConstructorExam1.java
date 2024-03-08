@@ -1,6 +1,6 @@
 package day5;
 
-public class ComtsturtorExam {
+public class ConstructorExam1 {
     // 다음 클래스들을 생성자를 이용해 간단하게 값을 세팅해주세요.
     public static void main(String[] args) {
         System.out.println("문제 1.\n");
@@ -146,5 +146,5 @@ class 사람1{
 }
 
 class 팔 {
-    int 길이;
+    int 길이 = 100;
 }

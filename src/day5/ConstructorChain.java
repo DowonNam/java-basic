@@ -1,5 +1,5 @@
 package day5;
-
+//생성자 체인
 public class ConstructorChain {
     public static void main(String[] args) {
         //동물 a동물 = new 동물();
