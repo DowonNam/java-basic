@@ -32,7 +32,8 @@ class Person {
     // 힌트 : 여기에 메소드 2개 추가해야 합니다.
     private int id;
 
-    // 메소드 1. public이니까 누구나 사용 가능하고, 어차피 본인 자신 거라 상관 없음
+    // 메소드 1. public이니까 누구나 사용 가능하고,
+    // 어차피 본인 자신 거라 상관 없음
     public void setId(int id){
         this.id = id;
     }
